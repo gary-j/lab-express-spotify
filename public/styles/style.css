@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../images/pablo-heimplatz-ZODcBkEohk8-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* position: relative;
+  width: 100%; */
+}
+.form-container {
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  width: 60vw;
+  margin: auto;
+  padding: 2em 4em;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 0.2em;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  margin: auto;
+  margin-top: 1em;
+  padding: 0.5em;
+  font-size: 20px;
+  width: fit-content;
+  border-radius: 0.2em;
+  border-color: white;
+  border-style: none;
+}
+
+input:first-of-type {
+  margin-top: 0em;
+}
