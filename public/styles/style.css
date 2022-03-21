@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-body {
+.home {
   background-image: url(../images/pablo-heimplatz-ZODcBkEohk8-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -9,12 +9,8 @@ body {
   width: 100%; */
 }
 .form-container {
-  /* position: absolute; */
-  /* top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   width: 60vw;
-  margin: auto;
+  margin: 8em auto;
   padding: 2em 4em;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 0.2em;

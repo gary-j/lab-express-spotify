@@ -1,0 +1,14 @@
+<section class="artist-albums">
+    <h2>{{artistName}}'s Albums</h2>
+
+    {{#each albums}}
+        <article>
+        <h3 class="artist-name">{{this.name}}</h3>
+        <p class="artist-id">ID : {{this.id}}</p>
+        <picture>
+            <img src="{{this.coverUrl}}" alt="">
+        </picture>
+        <button class="button view-albums"> <a href="albums/{{this.id}}">PLAY</a></button>
+    </article>
+    {{/each}}
+</section>

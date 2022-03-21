@@ -1,0 +1,14 @@
+<section class="artists-results">
+<h2>Results</h2>
+
+    {{#each artists}}
+    <article>
+        <h3 class="artist-name">{{this.name}}</h3>
+        <p class="artist-id">ID : {{this.id}}</p>
+        <picture>
+            <img src="{{this.imageUrl}}" alt="">
+        </picture>
+        <button class="button view-albums"> <a href="albums/{{this.id}}">View Albums</a></button>
+    </article>
+    {{/each}}
+</section>
